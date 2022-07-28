@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e10bee1.css",
+    "main.js": "/static/js/main.39320a6a.js",
+    "static/media/Costa_Jonas.jpg": "/static/media/Costa_Jonas.3dcebe4523b881bd071a.jpg",
+    "index.html": "/index.html",
+    "main.1e10bee1.css.map": "/static/css/main.1e10bee1.css.map",
+    "main.39320a6a.js.map": "/static/js/main.39320a6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e10bee1.css",
+    "static/js/main.39320a6a.js"
+  ]
+}
