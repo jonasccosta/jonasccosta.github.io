@@ -1,0 +1,45 @@
+$primary: #101010;
+$secondary: #3BCEAC;
+$muted: #9B9FA1;
+$text-light: #FFFFFF;
+$text-muted: #9B9FA1;
+
+
+
+$font-family-sans-serif: "Exo 2";
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 2rem,
+  8: 1.5rem
+);
+
+$spacer: 1rem !default;
+
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 12.5,
+  8: $spacer * 10,
+) !default;
+
+$border-radius-xl:            1.25rem;
+
+$body-bg: $primary;
+
+$box-shadow:                  0 1rem 2rem rgba($muted, .15);
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
