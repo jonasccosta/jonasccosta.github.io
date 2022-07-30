@@ -20,7 +20,7 @@ export default function AboutPageContent() {
         </p>
 
         <p className='text-light'>
-        If you want to get more details about me, check out my <a href='#' className='text-secondary'>resumé</a>. 
+        If you want to get more details about me, check out my <a href='#' className='text-secondary text-decoration-none'>resumé</a>. 
         </p>
     </div>
   )

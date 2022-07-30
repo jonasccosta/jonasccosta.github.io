@@ -1,7 +1,8 @@
-$primary: #101010;
-$secondary: #3BCEAC;
+$primary: #161616;
+$secondary: #fd4929;
+$dark:          #000000;
 $muted: #9B9FA1;
-$text-light: #FFFFFF;
+$text-light: #9d9d9d;
 $text-muted: #9B9FA1;
 
 
@@ -36,7 +37,9 @@ $border-radius-xl:            1.25rem;
 
 $body-bg: $primary;
 
-$box-shadow:                  0 1rem 2rem rgba($muted, .15);
+$background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+
+$box-shadow:                  0 0.5rem 2rem rgba($secondary, .15);
 
 
 
