@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.14807f6c.css",
-    "main.js": "/static/js/main.01b2c81e.js",
+    "main.js": "/static/js/main.fce11579.js",
+    "static/media/leilacabeleireira.png": "/static/media/leilacabeleireira.f1d7bc0f6efa10044d0e.png",
     "static/media/Costa_Jonas.jpg": "/static/media/Costa_Jonas.3dcebe4523b881bd071a.jpg",
+    "static/media/cardsafe.png": "/static/media/cardsafe.841d2ea19b08c6a7423b.png",
     "static/media/recoveryresourcesmap.png": "/static/media/recoveryresourcesmap.17ca7e23eba88c269137.png",
     "static/media/reading.jpg": "/static/media/reading.8169375e0d460a1f3b78.jpg",
+    "static/media/renegotiatingdebts.png": "/static/media/renegotiatingdebts.4f44c96b87dbb158bad1.png",
     "static/media/cooking.jpg": "/static/media/cooking.f575956fd6e83c417c8b.jpg",
     "static/media/hiking.jpg": "/static/media/hiking.a60cc2f8e8658028a150.jpg",
     "static/media/countonme1.png": "/static/media/countonme1.ddd7776af55fc780ca0f.png",
@@ -14,10 +17,10 @@
     "static/media/linkedin_logo.png": "/static/media/linkedin_logo.7191de36d5343b249588.png",
     "index.html": "/index.html",
     "main.14807f6c.css.map": "/static/css/main.14807f6c.css.map",
-    "main.01b2c81e.js.map": "/static/js/main.01b2c81e.js.map"
+    "main.fce11579.js.map": "/static/js/main.fce11579.js.map"
   },
   "entrypoints": [
     "static/css/main.14807f6c.css",
-    "static/js/main.01b2c81e.js"
+    "static/js/main.fce11579.js"
   ]
 }
