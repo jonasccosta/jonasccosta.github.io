@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from './Project'
-import recoveryresourcesmap from '../assets/recoveryresourcesmap.png'
+import recoveryresourcesmap from '../assets/recoveryresourcesmap_2.jpg'
 import website10 from '../assets/website1.0.png'
 import website20 from '../assets/website2.0.png'
 import countonme1 from '../assets/countonme1.png'
