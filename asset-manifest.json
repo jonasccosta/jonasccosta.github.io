@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.de8e16ab.css",
-    "main.js": "/static/js/main.e7fc2077.js",
+    "main.js": "/static/js/main.bac92783.js",
     "static/media/leilacabeleireira.png": "/static/media/leilacabeleireira.f1d7bc0f6efa10044d0e.png",
     "static/media/Costa_Jonas.jpg": "/static/media/Costa_Jonas.3dcebe4523b881bd071a.jpg",
     "static/media/cardsafe.png": "/static/media/cardsafe.841d2ea19b08c6a7423b.png",
@@ -13,15 +13,15 @@
     "static/media/recoveryresourcesmap_2.jpg": "/static/media/recoveryresourcesmap_2.f3f0f676ac971765b3fb.jpg",
     "static/media/website2.0.png": "/static/media/website2.0.9cfe189f341ec998df9b.png",
     "static/media/website1.0.png": "/static/media/website1.0.17c40d3c6fdf3d6ef833.png",
-    "static/media/Costa, Jonas_Resume.pdf": "/static/media/Costa, Jonas_Resume.d00fbe65c4ca9cd28761.pdf",
+    "static/media/Costa, Jonas_Resume.pdf": "/static/media/Costa, Jonas_Resume.69fb420a0df4100da6b9.pdf",
     "static/media/github_logo.png": "/static/media/github_logo.38947b0b0b2e71ceea0c.png",
     "static/media/linkedin_logo.png": "/static/media/linkedin_logo.7191de36d5343b249588.png",
     "index.html": "/index.html",
     "main.de8e16ab.css.map": "/static/css/main.de8e16ab.css.map",
-    "main.e7fc2077.js.map": "/static/js/main.e7fc2077.js.map"
+    "main.bac92783.js.map": "/static/js/main.bac92783.js.map"
   },
   "entrypoints": [
     "static/css/main.de8e16ab.css",
-    "static/js/main.e7fc2077.js"
+    "static/js/main.bac92783.js"
   ]
 }
