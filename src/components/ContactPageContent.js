@@ -6,7 +6,7 @@ import linkedin_logo from '../assets/linkedin_logo.png';
 
 export default function ContactPageContent() {
     const contacts = [
-        {logo: email_logo, name: "Email", link: "mailto:jonas-costa72@hotmail.com"}, 
+        {logo: email_logo, name: "Email", link: "mailto:jonasccosta72@gmail.com"}, 
         {logo: github_logo, name: "GitHub", link: "https://github.com/jonasccosta/"}, 
         {logo: linkedin_logo, name: "LinkedIn", link: "https://www.linkedin.com/in/jonasccosta/"} 
     ]
