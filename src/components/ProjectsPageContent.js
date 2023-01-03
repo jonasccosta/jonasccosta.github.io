@@ -27,13 +27,28 @@ export default function ProjectsPageContent() {
   return (
     <div className='container me-auto ms-auto w-50 h-100'>
         <p className='h1 mt-5 mb-5 text-secondary m'>Projects</p>
-        <p className='text-light fs-6'>
+        <p className='text-light fs-6 mb-5'>
         This page contains a few of my most relevant software design and development works. For more information about them, to see other projects or code samples, check my <a href="https://github.com/jonasccosta/" className="text-secondary text-decoration-none">GitHub page</a> .
         </p>
 
-        <div className='mt-4'>
-            <Project projects={projects}/>
+        <div className='d-flex align-items-stretch h-100'>
+          <div id="carouselExample" className="carousel carousel-dark slide h-100 ">
+              <div className="carousel-inner h-100 ">
+                <Project projects={projects}/>
+              </div>
+              <button className="carousel-control-prev button-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+              
+          </div>
+
         </div>
-    </div>
+ 
   )
 }

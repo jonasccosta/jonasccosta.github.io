@@ -13,13 +13,24 @@ export default function HobbiesPageContent() {
   return (
     <div className='container me-auto ms-auto w-50 h-100'>
         <p className='h1 mt-5 mb-5 text-secondary m'>Hobbies</p>
-        <p className='text-light fs-6'>
+        <p className='text-light fs-6 mb-5'>
             This is a list of the things I like to do besides writing code and working with software.
         </p>
 
-        <div className='w-100'>
+        <div id="carouselExample" className="carousel carousel-dark slide">
+            <div className="carousel-inner h-100">
             <Hobbie hobbies={hobbies}/>
-        </div>
-    </div>
+            </div>
+            <button className="carousel-control-prev button-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
+            
+     </div>
   )
 }

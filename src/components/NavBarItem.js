@@ -6,7 +6,7 @@ export default function NavBarItem({pages}) {
     pages.map(page =>{
         return (
             <li key={page.name} className="nav-item m-2">
-                <NavLink className={(navData) => (navData.isActive ? 'nav-link  text-light' : 'nav-link text-muted')} to={page.link} ><p className='p-0 m-0'>{page.name}</p></NavLink>
+                <NavLink className={(navData) => (navData.isActive ? 'nav-link  text-secondary' : 'nav-link text-light')} to={page.link} ><p className='p-0 m-0'>{page.name}</p></NavLink>
             </li>
         )
     })

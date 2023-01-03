@@ -1,13 +1,14 @@
-$primary: #161616;
-$secondary: #fd4929;
-$dark:          #000000;
-$muted: #9B9FA1;
+$primary: #252422;
+$secondary: #eb5e28;
+$light:      #fffcf2;
+$dark:          #161616;
+$muted: #403d39;
 $text-light: #9d9d9d;
-$text-muted: #9B9FA1;
+$text-muted: #403d39;
 
 
 
-$font-family-sans-serif: "Exo 2";
+$font-family-sans-serif: "Aleo";
 $display-font-sizes: (
   1: 5rem,
   2: 4.5rem,
@@ -36,8 +37,6 @@ $spacers: (
 $border-radius-xl:            1.25rem;
 
 $body-bg: $primary;
-
-$background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
 
 $box-shadow:                  0 0.5rem 2rem rgba($secondary, .15);
 

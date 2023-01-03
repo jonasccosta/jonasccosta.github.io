@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className='footer'>
       <div className="text-center text-light p-4 bg-transparent">
           <small>
-              © 2022 Jonas Costa
+              © 2023 Jonas Costa
 
           </small>
     </div>
