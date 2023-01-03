@@ -7,10 +7,12 @@ import countonme1 from '../assets/countonme1.png'
 import renegotiatingDebts from '../assets/renegotiatingdebts.png'
 import leilacabeleireira from '../assets/leilacabeleireira.png'
 import cardsafe from '../assets/cardsafe.png'
+import aloneonceagain from '../assets/AloneOnceAgain.jpg'
 
 export default function ProjectsPageContent() {
     const projects = [
         {name: "Recovery Resources Map", image: recoveryresourcesmap, description: "In the summer of 2022, I had an internship with YourPath, a startup that offers support to people going through substance use issues. There, I designed and developed the Recovery Resources Map, a web application where the Care Coordinators would be able to quickly filter by gender, age, and treatment methods, for example, and find the contact information for each resource program so they can reffer a patient to a program that best fit their needs and goals.", skills: "MongoDB, EJS, Bootstrap, JavaScript, Node.js, Git"},
+        {name: "Alone Once Again", image: aloneonceagain, description:"In my Video Games: Coding and Narrative class, three other students and I worked during the entire semester to build all the aspects of a video game. Hence, we created Alone Once Again, which is a 2D platformer game in which the player controls Violet, with the goal of taking her home while avoiding several obstacles. It was a great oportunity to work with an interdisciplinary team, where I learned a lot from people who had experience with narrative, world building, graphics and audio design.", skills: "Unity, C#, Git, Animation, Game Development"},
         {name: "Personal Website 1.0", image: website10, description: "To have a place where I can show my portfolio, I decided to create a personal website. With the tools I was familiar with at the time, I built a simple, but fully functional website, containing information about me, hobbies, projects, and contact information. In addition, all pages had its version in portuguese, with is my mother tongue. I hosted it in GitHub pages and it was an interesting project to solidify my basic web development skills.", skills: "JavaScript, HTML, CSS"},
         {name: "Personal Website 2.0", image: website20, description: "After a while, I noticed that my previous personal website was not as efficient as I wanted it to be. Hence, I developed this current website. Using several frameworks, I significantly reduced the amount of repeated code and made a more responsive and cohesive website. This experience made me realize that there's always room for improvement in my projects (including this website!).", skills: "JavaScript, React, Bootstrap"},
         {name: "CountOnMe", image: countonme1, description: "CountOnMe is the result of Macathon, a 24-hour annual innovation and creativity competition organized by my college. My teammates and I designed an app disguised as a calculator that enables victims of domestic violence to find secure help in critical moments. I envisioned the technical aspects, helped conduct background research, and prepared the presentation. The app is still in the design phase, but we have received positive feedback and were featured on the Star Tribune (the biggest newspaper in Minnesota)", skills: "Figma"},
@@ -31,9 +33,9 @@ export default function ProjectsPageContent() {
         This page contains a few of my most relevant software design and development works. For more information about them, to see other projects or code samples, check my <a href="https://github.com/jonasccosta/" className="text-secondary text-decoration-none">GitHub page</a> .
         </p>
 
-        <div className='d-flex align-items-stretch h-100'>
-          <div id="carouselExample" className="carousel carousel-dark slide h-100 ">
-              <div className="carousel-inner h-100 ">
+        <div className='row '>
+          <div id="carouselExample" className="carousel carousel-dark slide">
+              <div className="carousel-inner min-vh-100 shadow">
                 <Project projects={projects}/>
               </div>
               <button className="carousel-control-prev button-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

@@ -6,8 +6,8 @@ export default function Project({projects}) {
   return (
     projects.map(project =>{
         return(
-            <div className={(project.name === "Recovery Resources Map" ? 'carousel-item active h-100' : 'carousel-item h-100')} key={project.name}>
-                <div className="card bg-light row-3 mb-4 p-2 ms-0 me-0 border border-secondary-subtle h-100 overflow-auto">
+            <div className={(project.name === "Recovery Resources Map" ? 'carousel-item active  ' : 'carousel-item')} key={project.name}>
+                <div className="card bg-light row-3 mb-0 p-2 ms-0 me-0 min-vh-100">
                     <h4 className="card-title text-secondary ms-3 me-3 mt-3 mb-5">{project.name}</h4>
                     <div className='rounded mb-5 ms-6 me-6 '>
                         <img src={project.image} className="card-img-top rounded" alt="..."></img>
