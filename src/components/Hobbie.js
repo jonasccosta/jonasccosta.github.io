@@ -6,7 +6,7 @@ export default function Hobbie({hobbies}) {
         return (
 
             <div className={(hobbie.name === "Hiking" ? 'carousel-item active ' : 'carousel-item ')} key={hobbie.name}>
-                <div className='card row mb-4 p-2 ms-0 me-0'>
+                <div className='card bg-light row-3 mb-0 p-2 ms-0 me-0'>
                 <h4 className='card-title text-secondary ms-3 me-3 mt-3 mb-5'>{hobbie.name}</h4>
                 <div className='row card-body mb-4 p-0 '>
                     <div className='col-sm-5 ms-6 me-2 text-primary text-justify'>

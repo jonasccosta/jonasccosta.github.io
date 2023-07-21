@@ -6,23 +6,42 @@ export default function AboutPageContent() {
     <div className='container me-auto ms-auto w-50 h-100'>
         <p className='h1 mt-5 mb-5 text-secondary m'>About Me</p>
         <p className='text-light'>
-          
-        My name is Jonas Costa, and I'm currently pursuing my undergraduate degree at Macalester College in Minnesota, where I am majoring in Computer Science and Mathematics and will graduate in May 2023. I am originally from São Sebastião do Paraíso, Brazil.
+        Hello! I am Jonas Costa, an Associate Developer Consultant at Solutia Consulting, with a passion for creating technology solutions that are not only efficient and innovative but also contribute positively to society. I strongly believe in the power of technology to foster social justice and promote accessibility for all.
+        </p>
+
+        <p className='text-light'>💼 Professional Experience </p>
+        <p className='text-light'>
+        In my previous internship, I had the opportunity to work closely with a startup dedicated to providing support for individuals struggling with substance use issues. As part of this role, I played a pivotal part in assembling and implementing a filterable map of over 450 treatment programs across Minnesota. Leveraging my skills in Google Maps API, EJS, Node.js, and MongoDB, I developed a user-friendly platform that enables individuals to easily find treatment programs tailored to their specific needs and located near their homes. This project exposed me to both the technical challenges of software development and the ethical considerations surrounding the handling of sensitive patient information.
         </p>
 
         <p className='text-light'>
-
-          I am interested in all processes of design and development of software, but I focus on accessibility and social justice. Most of the time, developers do not think thoroughly about how the technology they create will affect all users. Technology should not cause harm. Instead, people should use it to dismantle prejudices and generate social change. I incorporate this awareness into my work by trying to reduce my biases, using value-sensitive design, and applying ethical lenses.
-        </p>
-        
-        <p className='text-light'>
-          On the technical side, I am comfortable designing and developing software in several programming languages and frameworks, such as Java, Python, and JavaScript. I can also use Flutter and Android Studio to build mobile apps. In addition, I enjoy using Figma to design my projects and R and SQL to analyze data. 
-        
+        🚀 Technical Expertise
         </p>
 
         <p className='text-light'>
-        If you want to get more details about me, check out my <a href={resume} className='text-secondary text-decoration-none'>resumé</a>. 
+        I possess proficiency in Angular, C#, and Visual Studio, which enables me to develop robust and scalable software solutions. Additionally, I have exposure to cloud platforms such as AWS and Azure, leveraging their capabilities to build secure and efficient applications. My understanding of these technologies allows me to deliver high-quality code and streamline development processes.
+                  </p>
+
+        <p className='text-light'>
+        🌍 Accessibility and Social Justice
         </p>
+
+        <p className='text-light'>
+        Beyond technical expertise, I am deeply committed to promoting accessibility and social justice within the technology industry. I firmly believe that technology should be inclusive and empower all individuals, regardless of their backgrounds or abilities. I continuously strive to integrate accessibility features into the software I develop, ensuring that it can be accessed and used by everyone. Furthermore, I actively engage with initiatives and organizations that drive social change, such as the United World Colleges, aiming to create a more equitable and inclusive society.
+        </p>
+
+        <p className='text-light'>
+        📚 Education
+        </p>
+
+        <p className='text-light'>
+        I hold a Bachelor of Arts Degree in Mathematics and Computer Science from Macalester College. During my academic journey, I gained a strong foundation in software development principles, problem-solving techniques, and collaborative teamwork. I consistently seek opportunities to enhance my knowledge and stay updated with the latest industry trends.
+        </p>
+
+
+                <p className='text-light'>
+                ✉️ If you want to get more details about me, check out my <a href={resume} className='text-secondary text-decoration-none'>resumé</a>. 
+                </p>
     </div>
   )
 }
