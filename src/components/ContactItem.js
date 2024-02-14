@@ -1,6 +1,7 @@
 import React from 'react'
+import contacts from '../assets/data/contact'
 
-export default function ContactItem({contacts}) {
+export default function ContactItem() {
   return (
     contacts.map(contact =>{
         return (

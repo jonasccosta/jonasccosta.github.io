@@ -1,9 +1,16 @@
 import React from 'react'
 import resume from '../assets/Resume.pdf'
+import {motion} from 'framer-motion';
+
 
 export default function AboutPageContent() {
   return (
-    <div className='container me-auto ms-auto w-50 h-100'>
+    <div className='container me-auto ms-auto w-75 h-100'>
+      <motion.div
+      initial={{opacity: 0, y: 90}}
+      animate={{opacity: 1, y: 0}}>
+
+
         <p className='h1 mt-5 mb-5 text-secondary m'>About Me</p>
         <p className='text-light'>
         Hello! I am Jonas Costa, an Associate Developer Consultant at Solutia Consulting, with a passion for creating technology solutions that are not only efficient and innovative but also contribute positively to society. I strongly believe in the power of technology to foster social justice and promote accessibility for all.
@@ -19,7 +26,7 @@ export default function AboutPageContent() {
         </p>
 
         <p className='text-light'>
-        I possess proficiency in Angular, C#, and Visual Studio, which enables me to develop robust and scalable software solutions. Additionally, I have exposure to cloud platforms such as AWS and Azure, leveraging their capabilities to build secure and efficient applications. My understanding of these technologies allows me to deliver high-quality code and streamline development processes.
+        I possess proficiency in .NET, Entity Framework, Angular, C#, and Visual Studio, which enables me to develop robust and scalable software solutions. Additionally, I have exposure to cloud platforms such as AWS and Azure, leveraging their capabilities to build secure and efficient applications. My understanding of these technologies allows me to deliver high-quality code and streamline development processes.
                   </p>
 
         <p className='text-light'>
@@ -42,6 +49,7 @@ export default function AboutPageContent() {
                 <p className='text-light'>
                 ✉️ If you want to get more details about me, check out my <a href={resume} className='text-secondary text-decoration-none'>resumé</a>. 
                 </p>
+      </motion.div>
     </div>
   )
 }
